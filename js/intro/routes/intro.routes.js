@@ -5,6 +5,4 @@ portfolio.config(['$stateProvider', '$urlRouterProvider', function($stateProvide
 			templateUrl: 'html/intro/intro.html',
 			controller: 'IntroCtrl',
 		});
-
-		$urlRouterProvider.otherwise('intro');
 }]);
