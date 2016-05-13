@@ -2,7 +2,7 @@ portfolio.config(['$stateProvider', '$urlRouterProvider', function($stateProvide
 	$stateProvider
 		.state('portfolio', {
 			url: '/portfolio',
-			templateUrl: 'html/portfolio/portfolio.html',
+			templateUrl: 'html/portfolio.html',
 			controller: 'PortfolioCtrl'
 		});
 }]);

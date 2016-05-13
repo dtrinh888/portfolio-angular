@@ -2,7 +2,7 @@ portfolio.config(['$stateProvider', '$urlRouterProvider', function($stateProvide
 	$stateProvider
 		.state('home', {
 			url:'/home',
-			templateUrl: 'html/home/home.html',
+			templateUrl: 'html/home.html',
 			controller: 'HomeCtrl'
 		});
 

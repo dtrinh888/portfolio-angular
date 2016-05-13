@@ -2,7 +2,7 @@ portfolio.config(['$stateProvider', '$urlRouterProvider', function($stateProvide
 	$stateProvider
 		.state('intro', {
 			url: '/intro',
-			templateUrl: 'html/intro/intro.html',
+			templateUrl: 'html/intro.html',
 			controller: 'IntroCtrl',
 		});
 }]);
