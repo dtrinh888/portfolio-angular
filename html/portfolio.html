@@ -1,12 +1,13 @@
 <div class="container">
 	<h1>{{portTest}}</h1>
 	<div ng-repeat="project in projects">
-		{{project.title}}
+		<a href="{{project.url}}">{{project.title}}</a>		
 		{{project.name}}
 		{{project.description}}
 		<img src="{{project.images}}" alt="">
 		<div ng-repeat="tech in project.technologies">
 			{{tech}}
 		</div>
+
 	</div>
 </div>
