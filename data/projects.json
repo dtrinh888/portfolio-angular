@@ -5,6 +5,18 @@
 		"description": "Some description",
 		"technologies": ["AngularJs", "Javascript", "Bower"],
 		"images": "../images/movie-finder-angular.png",
-		"url": "http://dtrinh888.github.io/capstone-project/#/"
+		"url": "http://dtrinh888.github.io/capstone-project/#/",
+		"thumbnails": "../images/thumbnails/movie-finder-angular-thumbnail.png",
+		"github": "https://github.com/dtrinh888/portfolio-angular"
+	},
+	{
+		"id": 2,
+		"title": "To Do App",
+		"description": "Some description",
+		"technologies": ["AngularJs", "Javascript", "Bower"],
+		"images": "../images/todo-app.png",
+		"url": "http://dtrinh888.github.io/to-do-app/app/",
+		"thumbnails": "../images/thumbnails/todo-app-thumbnail.png",
+		"github": "https://github.com/dtrinh888/to-do-app"
 	}
 ]
