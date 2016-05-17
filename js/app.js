@@ -1,1 +1,1 @@
-var portfolio = angular.module('Portfolio', ['ui.router', /*'bootstrapLightbox'*/]);
+var portfolio = angular.module('Portfolio', ['ui.router', 'bootstrapLightbox']);
